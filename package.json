@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-typescript-template",
-  "version": "1.178.0",
-  "description": "A template for a nodejs application, using typescript",
+  "name": "nodejs-pdf-parser",
+  "version": "0.0.1",
+  "description": "Nodejs PDF Parser",
   "main": "dist/src/index.js",
   "author": "",
   "license": "MIT",
@@ -16,7 +16,9 @@
     "test:coverage": "jest --coverage"
   },
   "dependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^3.9.179"
   },
   "devDependencies": {
     "@types/jest": "^29.5.4",
